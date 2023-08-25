@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<link rel="stylesheet" href="form.css">
+<body>
+    <div>
+        <h3><is><u>REGISTRATION FORM</u></i></h3>
+        </div>
+    <form>
+             
+        <div class="container">
+            <label name="Name">NAME</label>
+            <input type="text"name="NAME"placeholder="enter name" required>
+            <label name="email">E-MAIL</label>
+            <input type="email"name="email"placeholder="enter mail id" required>
+            <label for="profile-pic">Profile Picture:</label>
+            <input type="file" id="profile-pic" name="profile-pic"placeholder=
+            "uplode pic"required><br>
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate"placeholder=
+            "dd/mm/yyyy" required><br>
+
+            <label name="password">PASSWORD</label>
+            <input type="password"name="passwod"placeholder="enter strong password" required>
+            <label name="phonenumber">PHONENUMBER</label>
+            <input type="tel"name="phonenumber"placeholder=" enter a number " required>
+            <label name="gender">GENDER</label>
+            <select id="gender" aria-placeholder="select">
+                <option value="male" name="male">MALE</option>
+                <option value="female" name="female">FEMALE</option>
+                <option value="others" name="others">OTHERS</option>
+            </select>
+            <label name="Zipcode">ZIPCODE</label>
+            <input type="text"name="zipcode"placeholder=" enter zipcode " required>
+        </div>
+        <div>
+            <label for="Collage">COLLAGE:</label>
+            <input type="radio" name="collage" value="siet">
+            <label for="siet">SIET</label>
+            <input type="radio" id="bite" name="collage" value="bite">
+            <label for="bite">BIET</label>
+            <input type="radio" id="kite" name="collage" value="kite">
+            <label for="kite">KIET</label>
+            <input type="radio" id="Rite" name="collage" value="Rite">
+            <label for="Rite">RIET</label>
+            <label for="branch">BRANCH:</label>
+            <input type="checkbox" id="branch" name="branch">
+            <label for="ECE">ECE</label>
+            <input type="checkbox" id="branch" name="branch">
+            <label for="CSE">CSE</label>
+            <input type="checkbox" id="branch" name="branch">
+            <label for="EEE">EEE</label>
+            <input type="checkbox" id="branch" name="branch">
+            <label for="MECH">MECH</label>
+            
+            <label name="about">ABOUT</label>
+            <input type="textarea"name="textarea"placeholder="  enter the description " required>
+            <div class="btn">
+                <input type="submit"value="REGISTER">
+                
+               
+            </div>
+        </div>
+       
+    
+    </form>               
+</body>
+</html>
